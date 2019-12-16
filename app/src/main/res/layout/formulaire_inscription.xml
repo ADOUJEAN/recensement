@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textSize="@dimen/title_foru_item_size"
+                android:id="@+id/lble_nom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:text="Nom"/>
+
+
+            <EditText
+                android:id="@+id/edt_nom"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bg_edit"
+                android:hint="Entrer le nom"
+                android:inputType="textCapCharacters"
+                android:textAllCaps="true"/>
+
+            <TextView
+                android:textSize="@dimen/title_foru_item_size"
+                android:id="@+id/lble_tarif_hor_PME_Cons"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:text="Prénom"/>
+
+
+            <EditText
+                android:id="@+id/edt_prenom"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bg_edit"
+                android:hint="Entrer le(s) prénom(s)"
+                android:inputType="textCapCharacters"
+                android:textAllCaps="true"/>
+
+            <TextView
+                android:textSize="@dimen/title_foru_item_size"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:text="Login"/>
+
+
+            <EditText
+                android:id="@+id/edt_login"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bg_edit"
+                android:hint="Entrer le login"
+                android:inputType="textCapCharacters"
+                android:textAllCaps="true"/>
+
+            <TextView
+                android:textSize="@dimen/title_foru_item_size"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:text="Mot de passe"/>
+
+
+            <EditText
+                android:id="@+id/edt_mot_de_passe"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bg_edit"
+                android:hint="Entrer le mot de passe"
+                android:inputType="textCapCharacters"
+                android:textAllCaps="true"/>
+
+
+            <Button
+                android:id="@+id/btSaveRec"
+                android:layout_margin="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:text="Inscription"
+                android:textColor="#ffffff"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

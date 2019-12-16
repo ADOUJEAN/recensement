@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "889020903790",
+    "firebase_url": "https://recensement-6deaf.firebaseio.com",
+    "project_id": "recensement-6deaf",
+    "storage_bucket": "recensement-6deaf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:889020903790:android:456c93786af5571098117f",
+        "android_client_info": {
+          "package_name": "ci.k2jts.recensement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "889020903790-5lt771s222lnm946b483a7d8eiht7fee.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ci.k2jts.recensement",
+            "certificate_hash": "a21919f092d0392c96fdef461523c8eff992b950"
+          }
+        },
+        {
+          "client_id": "889020903790-v9pm86489f62tvtcp8v8qu30ul4bfuu1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrkwjLOjzKhFNAIZeJrPyLjB8yaB1dbT4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "889020903790-v9pm86489f62tvtcp8v8qu30ul4bfuu1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.LoginActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="15dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:textSize="@dimen/title_foru_item_size"
+                android:id="@+id/lble_nom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:text="Login"/>
+
+
+            <EditText
+                android:id="@+id/edt_login"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bg_edit"
+                android:hint="Entrer le login "
+                android:inputType="textCapCharacters"
+                android:textAllCaps="true"/>
+
+            <TextView
+                android:textSize="@dimen/title_foru_item_size"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimary"
+                android:textStyle="bold"
+                android:text="Mot de passe"/>
+
+
+            <EditText
+                android:id="@+id/edt_mot_de_passe"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/bg_edit"
+                android:hint=" Entrer le mot de passe"
+                android:inputType="textPassword"
+                android:textAllCaps="true"/>
+            <ProgressBar
+                android:id="@+id/progress"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </ProgressBar>
+
+                        <Button
+                            android:background="@color/colorPrimaryDark"
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/bt_login"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:drawablePadding="8dp"
+                            android:paddingStart="20dp"
+                            android:paddingTop="10dp"
+                            android:paddingEnd="20dp"
+                            android:paddingBottom="10dp"
+                            android:text="Connexion"
+                            android:textColor="#ffffff"
+                            android:textSize="20dp" />
+
+
+                        <Button
+                            android:background="#ffffff"
+                            android:layout_marginTop="20dp"
+                            android:id="@+id/bt_inscrire"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:drawablePadding="8dp"
+                            android:paddingStart="20dp"
+                            android:paddingTop="10dp"
+                            android:paddingEnd="20dp"
+                            android:paddingBottom="10dp"
+                            android:text="S'inscrire"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="20dp" />
+
+
+                </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

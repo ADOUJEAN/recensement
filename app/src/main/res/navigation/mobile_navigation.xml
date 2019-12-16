@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="ci.k2jts.recensement.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_new_rec"
+        android:name="ci.k2jts.recensement.ui.newRecensement.NewRecFragment"
+        android:label="@string/menu_new_recensement"
+        tools:layout="@layout/fragment_new_recensement" />
+
+    <fragment
+        android:id="@+id/nav_list_rec"
+        android:name="ci.k2jts.recensement.ui.listRecensement.ListRecFragment"
+        android:label="@string/menu_list_recensement"
+        tools:layout="@layout/fragment_list_recensement" />
+
+    <fragment
+        android:id="@+id/nav_statistiqur"
+        android:name="ci.k2jts.recensement.ui.statistique.StatistiqueRecFragment"
+        android:label="@string/menu_statistique_recensement"
+        tools:layout="@layout/fragment_statistiques_recensement" />
+
+</navigation>
